@@ -11,7 +11,7 @@ variable "container_registry_name" {
   type = string
 }
 variable "sku" {
-  description = "The SKU name of the container registry"
+  description = "The SKU name of the container registry select Basic, Standard or Premimum"
   type = string
  
  validation {
