@@ -27,5 +27,5 @@ variable "admin_enabled" {
 variable "georeplication_location" {
   description = "Location where container registry needs to be geo-replicated"
   type = string 
-  default = "westus"
+  default = "westus2"
 }
